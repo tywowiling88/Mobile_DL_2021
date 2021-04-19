@@ -10,9 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.W10c_33081">
         <service
-            android:name=".CustomService"
+            android:name=".CustomBoundService"
             android:enabled="true"
             android:exported="true"></service>
+        <service
+            android:name=".CustomService"
+            android:enabled="true"
+            android:exported="true" />
 
         <activity android:name=".MainActivity">
             <intent-filter>
